@@ -4,3 +4,4 @@ databricks_repo_proxy.egg-info/
 dist
 .envrc
 .pytest_cache
+.DS_Store
