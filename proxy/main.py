@@ -13,7 +13,7 @@ from urllib3.request import RequestMethods
 
 # Configuration
 class ProxyConfig:
-    VERSION = "0.0.18"
+    VERSION = "0.0.19"
     PORT = os.environ.get("PROXY_PORT", 8000)
     LOG_FILE_PATH = os.environ.get(
         "LOG_FILE_PATH", tempfile.NamedTemporaryFile(delete=False).name
@@ -45,10 +45,9 @@ def log_message(message):
 
 
 def log_headers(message: str = "", headers: dict = {}):
-    _HEADER_DENY_LIST = set("authorizations")
     header_strs = []
     for k, v in headers.items():
-        if k.lower() not in _HEADER_DENY_LIST:
+        if "authorization" not in k.lower():
             header_strs.append(f"{k}: {v}")
     header_str = " ".join(header_strs)
     logger.info(
