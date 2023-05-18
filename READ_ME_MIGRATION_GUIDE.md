@@ -15,18 +15,18 @@ Here are the Git Proxy improvements in v0.0.20:
 ## Prerequisites
 Choose a proxy cluster name, for example, git_proxy_2023_05_18. This must be different from your current proxy cluster name.
 
-Read the proxy documentation at documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf].
+Read the proxy documentation at [documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf]](https://github.com/databricks/databricks-repos-proxy/blob/v0.0.20/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.0.20.pdf). *IMPORTANT* If you have self signed SSL please read "Secure connection could not be established because of ssl problems"
 
 ## Update Steps
-Upload the new proxy script enable_git_proxy_jupyter_v0.0.20.ipynb in this repository to your workspace.
+1. Upload the new proxy script [enable_git_proxy_jupyter_v0.0.20.ipynb](https://github.com/databricks/databricks-repos-proxy/blob/v0.0.20/enable_git_proxy_jupyter_v0.0.20.ipynb) in this repository to your workspace.
 
-Follow the notebook instructions to set up the new proxy cluster.
+2. Run the enablement notebook. **Please make sure to thoroughly read the documentation provided before proceeding to set up the new proxy cluster. It is highly recommended that you carefully review and try to comprehend the content of each notebook cell before executing any commands. It's important to note that as part of the enablement process, you will need to switch the connected cluster.**
 
-Wait for approximately **30 minutes** for the git traffic to transition from the old cluster to the new cluster. You can use the proxy log to verify the update process. Refer to the proxy documentation for details on how to access the log.
+3. Wait for approximately **30 minutes** for the git traffic to transition from the old cluster to the new cluster. You can use the proxy log to verify the update process. Refer to the proxy documentation for details on how to access the log.
 
-Verify that there is no traffic going to the old proxy cluster.
+4. Verify that there is no traffic going to the old proxy cluster. (refer to the documentation) 
 
-Once you have confirmed that there is no traffic on the old proxy cluster, you can safely turn it off.
+5. Once you have confirmed that there is no traffic on the old proxy cluster, you can safely turn it off.
 
 By following these steps, you should have successfully updated your git proxy to a new cluster.
 
