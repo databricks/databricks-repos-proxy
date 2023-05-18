@@ -1,6 +1,6 @@
 # Git Proxy Update Guide
 ## Background
-This update is required to maintain compatibility with various Git providers and support new git features such as sparse checkout and rebase merge. We have deprecated versions below v0.0.20 as of Aug 31, 2023, and they no longer function after this date. It's crucial to apply this update to continue using the git proxy and take advantage of the new features.
+This update is required to maintain compatibility with various Git providers and support new git features such as sparse checkout and rebase merge. We have deprecated versions below v0.0.20 as of Aug 31, 2023, and they no longer function after this date. It's crucial to apply this update to continue using the git proxy and take advantage of the new features. Also, there are no architecture changes in this update, and as a result, no additional security review is required. This instruction is specifically intended for users who already have Git Proxy enabled and are looking to perform a zero downtime migration.
 
 ## What's Changed
 Here are the Git Proxy improvements in v0.0.20:
@@ -15,7 +15,7 @@ Here are the Git Proxy improvements in v0.0.20:
 ## Prerequisites
 Choose a proxy cluster name, for example, git_proxy_2023_05_18. This must be different from your current proxy cluster name.
 
-Read the proxy documentation at [documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf]](https://github.com/databricks/databricks-repos-proxy/blob/v0.0.20/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.0.20.pdf). *IMPORTANT* If you have self signed SSL please read "Secure connection could not be established because of ssl problems"
+Read the proxy documentation at [documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf]](https://github.com/databricks/databricks-repos-proxy/blob/v0.0.20/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.0.20.pdf). *IMPORTANT* If you have self signed SSL please read "Secure connection could not be established because of ssl problems". In such cases, modifications to the enablement script will be necessary.
 
 ## Update Steps
 1. Upload the new proxy script [enable_git_proxy_jupyter_v0.0.20.ipynb](https://github.com/databricks/databricks-repos-proxy/blob/v0.0.20/enable_git_proxy_jupyter_v0.0.20.ipynb) in this repository to your workspace.
