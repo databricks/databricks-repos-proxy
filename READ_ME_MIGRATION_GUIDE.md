@@ -13,9 +13,10 @@ Here are the Git Proxy improvements in v0.0.20:
 6. Improved Logging & Health Endpoint: Added logging and health endpoint for simplified troubleshooting.
 
 ## Prerequisites
-Choose a proxy cluster name, for example, git_proxy_2023_05_18. This must be different from your current proxy cluster name.
-
 Read the proxy documentation at [documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf]](https://github.com/databricks/databricks-repos-proxy/blob/v0.0.20/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.0.20.pdf). *IMPORTANT* If you have self signed SSL please read "Secure connection could not be established because of ssl problems". In such cases, modifications to the enablement script will be necessary.
+1. Have workspace admin permission
+2. Choose a new proxy cluster name, for example, git_proxy_2023_05_18. This must be different from your current proxy cluster name.
+3. Read the proxy documentation at documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf].
 
 ## Update Steps
 1. Upload the new proxy script [enable_git_proxy_jupyter_v0.0.20.ipynb](https://github.com/databricks/databricks-repos-proxy/blob/v0.0.20/enable_git_proxy_jupyter_v0.0.20.ipynb) in this repository to your workspace.
@@ -31,4 +32,4 @@ Read the proxy documentation at [documentations/[Git Server Proxy for Repos Docu
 By following these steps, you should have successfully updated your git proxy to a new cluster.
 
 ## Support
-If you have any questions or encounter any issues during the update process, please contact your solution architect for assistance. They will be able to guide you through the process and help resolve any issues that may arise.
+If you have any questions or encounter any issues during the update process, please email help@databricks.com.
