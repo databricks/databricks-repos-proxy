@@ -1,4 +1,2 @@
-# Databricks Proxy Server
-
-## Closed Private Preview 
-Databricks proxy server is a closed private preview. Do not use unless directed.
+# DEPRECATED PLEASE USE
+https://github.com/databricks/databricks-repos-proxy/tree/v0.1.0
