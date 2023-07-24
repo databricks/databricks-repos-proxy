@@ -19,10 +19,8 @@ Here are the Git Proxy improvements in v0.1.0:
 8. Allow customizing the settings, like SSL verification, port, with environment variables.
 
 ## Prerequisites
-Read the proxy documentation at [documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf]]
-(https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.1.0.pdf).
 1. Have workspace admin permission
-2. Read the proxy documentation at documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf].
+2. Read the proxy [documentation v0.1.0](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.1.0.pdf)
 
 ## Update Steps
 1. Upload the new proxy script [enable_git_proxy_jupyter_v0.1.0.ipynb](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/enable_git_proxy_jupyter_v0.1.0.ipynb) 
