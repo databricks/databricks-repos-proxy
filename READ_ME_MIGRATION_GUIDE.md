@@ -20,12 +20,12 @@ Here are the Git Proxy improvements in v0.1.0:
 
 ## Prerequisites
 Read the proxy documentation at [documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf]]
-(https://github.com/databricks/databricks-repos-proxy/blob/v0.0.20/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.0.20.pdf).
+(https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.1.0.pdf).
 1. Have workspace admin permission
 2. Read the proxy documentation at documentations/[Git Server Proxy for Repos Documentation v0.0.20.pdf].
 
 ## Update Steps
-1. Upload the new proxy script [enable_managed_git_proxy_jupyter.ipynb](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/enable_managed_git_proxy_jupyter.ipynb) 
+1. Upload the new proxy script [enable_git_proxy_jupyter_v0.1.0.ipynb](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/enable_git_proxy_jupyter_v0.1.0.ipynb) 
 in this repository to your workspace.
 
 2. Run the enablement notebook, by clicking the "Run all" button.
