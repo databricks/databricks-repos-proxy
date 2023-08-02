@@ -26,6 +26,10 @@ Here are the Git Proxy improvements in v0.1.0:
 1. Upload the new proxy script [enable_git_proxy_jupyter_v0.1.0.ipynb](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/enable_git_proxy_jupyter_v0.1.0.ipynb) 
 in this repository to your workspace.
 
+
+https://github.com/databricks/databricks-repos-proxy/assets/5799524/ec9fbc2d-18c2-45ef-a5e8-5d488492053d
+
+
 2. Run the enablement notebook, by clicking the "Run all" button.
 
 3. Wait for approximately **5 minutes** for the cluster to start, you can check its status in "Compute", the cluster name is "Repos Git Proxy"
