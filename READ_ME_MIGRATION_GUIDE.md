@@ -32,7 +32,11 @@ https://github.com/databricks/databricks-repos-proxy/assets/5799524/ec9fbc2d-18c
 
 2. Run the enablement notebook, by clicking the "Run all" button.
 
-3. Wait for approximately **5 minutes** for the cluster to start, you can check its status in "Compute", the cluster name is "Repos Git Proxy"
+3. Wait for approximately **5 minutes** for the cluster to start, you can check its status in "Compute", the cluster name is "Repos Git Proxy". You can find the proxy logs at `/databricks/git-proxy/git-proxy.log`
+
+
+https://github.com/databricks/databricks-repos-proxy/assets/5799524/e613a64b-29ab-4038-9839-b8d1da932163
+
 
 4. If you are upgrading from old Git Proxy, verify that there is no traffic going to the old proxy cluster. (refer to the documentation) 
 Once you have confirmed that there is no traffic on the old proxy cluster, you can safely turn it off.
