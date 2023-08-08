@@ -15,7 +15,7 @@ Here are the Git Proxy improvements in v0.1.0:
 4. Nginx 1.23 Compatibility: Ensured compatibility with nginx 1.23.
 5. End-to-End Testing: Introduced comprehensive testing against major Git providers (GitLab, Azure DevOps, Bitbucket, GitHub).
 6. Improved Logging & Health Endpoint: Added logging and health endpoint for simplified troubleshooting.
-7. **Auto deployment & upgrade: The Git Proxy script is automatically deployed and upgraded on the cluster.**
+7. **Auto deployment & upgrade: Future Git Proxy script is automatically deployed and upgraded on the cluster.**
 8. Allow customizing the settings, like SSL verification, port, with environment variables.
 
 ## Prerequisites
