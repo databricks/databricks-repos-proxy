@@ -44,4 +44,5 @@ Once you have confirmed that there is no traffic on the old proxy cluster, you c
 By following these steps, you should have successfully updated your git proxy to a new cluster.
 
 ## Support
-If you have any questions or encounter any issues during the update process, please email help@databricks.com.
+Use [debug notebook](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/debug_git_proxy_jupyter_v0.1.0.ipynb) to troubleshoot the issue. 
+If you have any questions or encounter any issues during the update process, please email help@databricks.com with the debug notebook output.
