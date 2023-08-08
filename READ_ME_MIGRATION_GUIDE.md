@@ -1,7 +1,7 @@
 # Git Proxy Install & Update Guide
 ## Background
 This update is required to maintain compatibility with various Git providers and support new git features such as sparse checkout and rebase merge. 
-**We have deprecated versions below v0.1.0 as of Aug 31, 2023, and will be no longer be supported after this date.**
+**We have deprecated versions below v0.1.0 as of September 30, 2023, and will be no longer be supported after this date.**
 It's crucial to apply this update to continue using the git proxy and take advantage of the new features. 
 Also, there are no architecture changes in this update, and as a result, no additional security review is required. 
 This instruction is specifically intended for users who already have Git Proxy enabled and are looking to perform a zero downtime migration.
