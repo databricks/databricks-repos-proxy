@@ -50,3 +50,7 @@ To remove Git Proxy, run the disable_git_proxy_jupyter.ipynb notebook and then d
 
 Use [debug notebook](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/debug_git_proxy_jupyter_v0.1.0.ipynb) to troubleshoot the issue. 
 If you have any questions or encounter any issues during the update process, please email help@databricks.com with the debug notebook output.
+
+
+## FAQ:
+1. Do I need to set up the init script previously provided by Databricks for the new git proxy cluster? No, Git proxy v0.1.0 does not require the use of an init script. **Applying the previous init script to Git proxy v0.1.0 will cause Git Proxy to malfunction.**
