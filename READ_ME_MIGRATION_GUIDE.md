@@ -20,10 +20,10 @@ Here are the Git Proxy improvements in v0.1.0:
 
 ## Prerequisites
 1. Have workspace admin permission
-2. Read the proxy [documentation v0.1.0](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation%20v0.1.0.pdf)
+2. Read the proxy [documentation](https://github.com/databricks/databricks-repos-proxy/blob/main/documentations/Git%20Server%20Proxy%20for%20Repos%20Documentation.pdf)
 
 ## Update Steps
-1. Upload the new proxy script [enable_git_proxy_jupyter_v0.1.0.ipynb](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/enable_git_proxy_jupyter_v0.1.0.ipynb) 
+1. Upload the new proxy enablement [notebook](https://github.com/databricks/databricks-repos-proxy/blob/main/enable_git_proxy_jupyter.ipynb)
 in this repository to your workspace.
 
 
@@ -48,9 +48,9 @@ To remove Git Proxy, run the disable_git_proxy_jupyter.ipynb notebook and then d
 
 ## Support
 
-Use [debug notebook](https://github.com/databricks/databricks-repos-proxy/blob/v0.1.0/debug_git_proxy_jupyter_v0.1.0.ipynb) to troubleshoot the issue. 
+Use [debug notebook](https://github.com/databricks/databricks-repos-proxy/blob/main/debug_git_proxy_jupyter.ipynb) to troubleshoot the issue. 
 If you have any questions or encounter any issues during the update process, please email help@databricks.com with the debug notebook output.
 
 
 ## FAQ:
-1. Do I need to set up the init script previously provided by Databricks for the new git proxy cluster? No, Git proxy v0.1.0 does not require the use of an init script. **Applying the previous init script to Git proxy v0.1.0 will cause Git Proxy to malfunction.**
+1. Do I need to set up the init script previously provided by Databricks for the new git proxy cluster? No, Git proxy v0.1.0+ does not require the use of an init script. **Applying the previous init script to Git proxy v0.1.0+ will cause Git Proxy to malfunction.**
